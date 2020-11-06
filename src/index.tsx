@@ -1,12 +1,20 @@
+/**
+ * 项目入口文件
+ * 将create出来的store容器当作属性传入到Appcontainer中，作为我们应用的状态容器。
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App'; 原app页面
 import * as serviceWorker from './serviceWorker';
+import AppContainer from './container/AppContainer';
+import createStore from './store/createStore';
+const store=createStore();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppContainer store={store} />
   </React.StrictMode>,
   document.getElementById('root')
 );

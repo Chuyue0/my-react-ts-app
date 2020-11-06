@@ -8,7 +8,7 @@
 import React,{ Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from '../routes/home';
-import WechatLayout from '../routes/WechatLayout';
+import WechatLayout from './WechatLayout';
 
 export default class AppLayout extends Component {
     constructor(props) {
