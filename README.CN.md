@@ -3,6 +3,8 @@ react学习demo，基于typescript
     or use: npx create-react-app my-react-ts-app --template typescript 
     or add: npm add react-router-dom (路由依赖)
         npm add react-redux redux
+      综合使用：
+      npm add react-router-dom react-redux prop-types redux redux-saga  
     or install: npm install --save redux-saga
         npm install --save prop-types    
 2.添加该版本的typescript版本（该库的声明文件，如没有ts版本见2.1）
@@ -33,8 +35,7 @@ react学习demo，基于typescript
 4.redux-saga 库
   redux中间件，能访问完整的redux state，也可以dispatch redux action ，用于解决异步问题；
   ES6 Generator 解决地狱回调问题，通过yield关键字，让函数的执行流挂起；
-  redux-saga/effects 中的几个关键字： fork,call,put,takeEvery,takeLatest,all
-  delay
+  redux-saga/effects 中的几个关键字： fork,call,put,takeEvery,takeLatest,all,delay
 5.prop-types 库
   React在组件上的props进行类型检查，同Typescript扩展。  
 
@@ -46,7 +47,7 @@ https://juejin.im/post/6844903961938378759
 https://www.jianshu.com/p/35742227738e (ts引入三方包，无法找到模块错误)
 
 参考来源3：
-https://www.cnblogs.com/detectiveHLH/p/10128948.html（create-react-app,router,redux）
+https://www.cnblogs.com/detectiveHLH/p/10128948.html（create-react-app,router,redux,redux-saga）
 https://www.jianshu.com/p/8954e9fb0c7e (react-router-dom ，需要看最新的版本4+使用情况，思路可以)
 https://developers.weixin.qq.com/community/develop/article/doc/000c24093849b048efda403a85b413 （react-router-dom,ts,mock）
 https://blog.csdn.net/sinat_17775997/article/details/103092220 (ts,react-router)

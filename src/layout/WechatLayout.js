@@ -7,7 +7,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from '../routes/wechat/home'
 import { connect } from 'react-redux'
 
-class WechatLayout extends React.component {
+class WechatLayout extends React.Component {
     constructor(props) {
         super(props);
         this.state = {}

@@ -7,6 +7,8 @@
  *
  * createSagaMiddleware 工厂函数
  * applyMiddleware 连接至store
+ * 
+ * createStore可以将preloadedState作为第二个参数
  */
 import { applyMiddleware, compose, createStore } from "redux";
 import createSagaMiddleware from "redux-saga";

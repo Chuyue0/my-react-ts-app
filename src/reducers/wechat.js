@@ -1,5 +1,6 @@
 /**
  * counter reducer
+ * 结构： state,action
  */
 const initState = {
   projectName: null,
@@ -13,7 +14,8 @@ const initState = {
 //export default function counter(state = initState, action) {
 const counter = (state = initState, action) => {
   let newState = state;
-  switch (newState) {
+  console.log('reducers',action);
+  switch (action.type) {
     case "GET_PROJECT":
       newState.projectName = action.payload.projectName;
       break;

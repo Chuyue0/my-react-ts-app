@@ -11,10 +11,12 @@ class Home extends React.Component {
     componentDidMount() {
         /**
          * dispatch()
-         * 触发reducer
+         * 触发reducer action
          * payload是请求带的参数，该参数会传入到saga中间层，去调用真正的后端请求；请求成功后调用put()更新state。
+         * 
+         * 触发action失败，报错了？？？？？？？
          */
-        this.props.dispatch({ type: 'WATCH_GET_PROJECT', payload: { projectName: 'tap4fun' } })
+        this.props.dispatch({ type: 'WATCH_GET_PROJECT', payload: { projectName: '我的wechat名字' } });
     }
     render() {
         return (
