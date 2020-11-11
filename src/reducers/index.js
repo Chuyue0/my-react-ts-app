@@ -3,7 +3,7 @@
  * combineReducers 
  */
 import {combineReducers} from 'redux';
-import Wechat from './wecaht'
+import Wechat from './wechat'
 
 export default combineReducers({
     wechat: Wechat
