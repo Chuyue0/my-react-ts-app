@@ -18,6 +18,13 @@ react学习demo，基于typescript
 4.添加tsconfig.json配置文件
 5.编译ts命令行：
 6.扩展： .tsx
+7.git提交规范
+  husky+commitlint
+  npm install --save-dev husky
+  npm install --save-dev @commitlint/config-conventional @commitlint/cli
+  husky:
+   当前项目配置git hook，package配置, eg: git commit -m 'feat: 增加 xxx 功能'，'<type>: <subject>'
+  echo "module.exports = {extends: ['@commitlint/config-conventional']};" > commitlint.config.js
 
 其他：
 1.layout目录
@@ -47,7 +54,7 @@ https://juejin.im/post/6844903961938378759
 https://www.jianshu.com/p/35742227738e (ts引入三方包，无法找到模块错误)
 
 参考来源3：
-https://www.cnblogs.com/detectiveHLH/p/10128948.html（create-react-app,router,redux,redux-saga）
+https://www.cnblogs.com/detectiveHLH/p/10128948.html（create-react-app,router,redux,redux-saga）【看完了】
 https://www.jianshu.com/p/8954e9fb0c7e (react-router-dom ，需要看最新的版本4+使用情况，思路可以)
 https://developers.weixin.qq.com/community/develop/article/doc/000c24093849b048efda403a85b413 （react-router-dom,ts,mock）
 https://blog.csdn.net/sinat_17775997/article/details/103092220 (ts,react-router)
