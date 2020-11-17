@@ -24,6 +24,7 @@ react学习demo，基于typescript
   npm install --save-dev @commitlint/config-conventional @commitlint/cli
   husky:
    当前项目配置git hook，package配置, eg: git commit -m 'feat: 增加 xxx 功能'，'<type>: <subject>'
+   如果跳过pre-commit钩子，eg: git commit --no-verify -m 'feat: 增加 xxx 功能'
   echo "module.exports = {extends: ['@commitlint/config-conventional']};" > commitlint.config.js
 
 其他：
