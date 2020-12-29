@@ -1,8 +1,10 @@
 /**
  * 项目入口文件
  * 将create出来的store容器当作属性传入到Appcontainer中，作为我们应用的状态容器。
+ * 添加 eslint-disable-next-line 忽略下一行，因为报错： ‘'React' was used before it was defined  @typescript-eslint/no-use-before-define’
  */
 
+// eslint-disable-next-line
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

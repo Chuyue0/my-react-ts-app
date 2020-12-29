@@ -35,6 +35,9 @@
   *不兼容prettier时fix用eslint-config-prettier
    npm install --save-dev eslint-config-prettier
   *npm add eslint-plugin-prettier --dev
+  ***拉取代码后npm start报错，提示eslint 版本错误时（未满足的对等依赖），解决办法：
+    1)删除package-lock.json和yarn.lock和node_modules文件
+    2)package.json文件清空devDependencies，再重新install-start
 
 ## 其他：
 ### 1.layout目录

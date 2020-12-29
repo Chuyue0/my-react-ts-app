@@ -20,6 +20,7 @@ const counter = (state = initState, action) => {
       newState.projectName = action.payload.projectName;
       break;
     default:
+      newState.projectName = 'defalut name';
       break;
   }
   return {...newState};
