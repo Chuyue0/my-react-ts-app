@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import { connect } from 'react-redux';
+const Mock = require('mockjs');
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -18,6 +19,15 @@ class Home extends React.Component {
          * 丄解决方法：type值错误，找不到就报错了
          */
         this.props.dispatch({ type: 'GET_PROJECT', payload: { projectName: '我的wechat名字:Rosea' } });
+        /**
+         * mock无输出？？？
+         */
+        let data = Mock.mock({
+            'list|1-5': [{
+                'id|+1': 1
+            }]
+        })
+        console.log('123',JSON.stringify(data,null,4));
     }
     render() {
         return (
