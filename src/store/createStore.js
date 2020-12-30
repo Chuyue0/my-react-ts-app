@@ -2,7 +2,7 @@
  * 应用的状态容器store
  * 创建redux的store，eg:写日志中间件
  * 引入了redux-saga，在reducer中定义好类型的操作和saga，不需要定义action函数和引入action中函数，甚值连mapStateToProps函数也不需要调用，
- * 直接使用this.props.dispatch({type:'WATCH_GET_PROJECT'})直接调用，
+ * 直接使用this.props.dispatch({type:'WATCH_GET_PROJECT'})直接调用，  no ????
  * action可以复用
  *
  * createSagaMiddleware 工厂函数
