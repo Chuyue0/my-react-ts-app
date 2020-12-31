@@ -41,6 +41,7 @@
 ### 8. mockjs
     Mock.mock(), require方式引入
 ### 9. axios
+    定义一个公用方法（待完成）
     
 ## 其他：
 ### 1.layout目录
