@@ -40,7 +40,7 @@
       2)package.json文件清空devDependencies，再重新install-start
 ### 8. mockjs
     Mock.mock(), require方式引入
-### 9. express
+### 9. axios
     
 ## 其他：
 ### 1.layout目录

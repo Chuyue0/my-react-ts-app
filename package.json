@@ -9,6 +9,7 @@
     "@types/react-router-dom": "^5.1.6",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
+    "axios": "^0.21.1",
     "cra-template-typescript": "1.0.3",
     "eslint-plugin-react": "^7.21.5",
     "mockjs": "^1.1.0",
