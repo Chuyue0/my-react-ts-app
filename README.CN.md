@@ -42,6 +42,8 @@
     Mock.mock(), require方式引入
 ### 9. axios
     定义一个公用方法（待完成）
+### 10. antdesign
+    antd , babel-plugin-import (按需加载组件)
     
 ## 其他：
 ### 1.layout目录
